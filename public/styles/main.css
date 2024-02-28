@@ -1,0 +1,389 @@
+ *{
+    box-sizing: border-box;
+  font-family: 'Scheherazade New'; 
+  font-size:x-large;
+  }  
+
+  
+ /*.mai{ 
+ background: url(../images/blood1.PNG) ;
+ background-blend-mode: color rgba(255,255,0,1);
+  }  */
+h3{
+	color: red !important;
+	padding:20px 45%;
+}
+h4{
+	color: rgb(152, 183, 251);
+	background-color: #eedec4;
+}
+
+.button
+{
+	width: 193px;
+	height: 72px;
+	background: linear-gradient(to right, #5473b1, #32fa95);
+	text-align: center;
+	border-radius: 36px;
+}
+button:hover
+{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.25);
+}
+/* .header_il ul{
+	position: absolute;
+	top: 30;
+} */
+.header_il ul il{
+	
+	padding:10px 30px;
+}
+
+
+.div_card{
+    margin: 10%;
+    border-width:2px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10%;
+}
+.title_card{
+	direction: rtl;
+	font-size:30px;
+	font-weight: 300;
+	padding: 0px 40px;
+}
+
+.image_card{
+	width: 100%; 
+	height: 200px;
+   border-radius: 12%;
+}
+
+
+.order{
+	margin:10% 10px;
+}
+.image_order{
+	margin:10px;
+}
+
+.image_order img{
+ width:100px;
+ height:70px;
+ background-size: cover;
+ 
+}
+.text_order{
+	direction: rtl;
+	font-size: 30px ;
+	font-weight:500;
+
+}
+.email_order{
+	padding: 10px;
+}
+.email_order a i {
+	font-size: 75px ;
+	font-weight:50;
+	color: black;
+}
+.search{
+padding:20px ;
+background:rgba(14, 1, 1,0.2); 
+}
+.search_buttom{
+	widows: 50px;
+	height: 70px;
+}
+
+.from_acount,.header_il {
+	position: relative;
+	direction: rtl;
+}
+
+.from_input,.from_acount i,.from_acount_label{
+	direction: rtl;
+	position: absolute;
+	top: 18%;
+	right:20px;
+	padding: 0px 10px;
+}
+
+.from_acount i {
+	text-shadow: -3px -4px  rgba(0,0,0,0.25);
+}
+.from_acount input{
+	padding: 0% 35px;
+	font-size: 30px ;
+	font-weight:500;
+	border-radius: 36px;
+}
+.from_acount i{
+	padding:  5px;
+}
+
+.intre{
+    background: url(images/icon.jpg) rgba(14, 1, 1,0.3) no-repeat center;
+ }
+ .intre{
+    background: url(images/icon.jpg) rgba(14, 1, 1,0.3) no-repeat center;
+}
+#first{
+
+    background: url(images/icon.jpg) rgba(14, 1, 1,0.3) no-repeat center;
+    height: 550px;
+}
+#dis{
+    background: url(images/blood.png) rgba(14, 1, 1,0.3) no-repeat center;
+    height: 550px;
+}
+#page{
+    background: url(../images/blood2.png) rgba(14, 1, 1,0.3) no-repeat center;
+    height: 550px;
+}
+#index{
+    background: rgba(200, 200,200,0.3) ;
+   height: 700px;    
+}
+
+#index1{
+    background: rgba(200, 200, 200,0.3) ;
+    height:700px;    
+}
+
+.intre,.ntre{
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: multiply;
+} 
+.intre ,.dis{   
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 119px;
+	padding-bottom: 105px;
+}
+.contact .section_title
+{
+	font-weight: 700;
+}
+.contact_info_text
+{
+	margin-top: 42px;
+}
+.contact_info_content
+{
+	margin-top: 50px;
+	padding-right: 170px;
+}
+.contact_info_list li
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #828282;
+}
+.contact_info_list li:not(:last-child)
+{
+	margin-bottom: 23px;
+}
+.contact_info_list li > div:first-child
+{
+	color: #3f6fce;
+}
+.contact_form
+{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.contact_form > div:not(:last-child)
+{
+	margin-bottom: 17px;
+}
+.contact_input
+{
+	width: 100%;
+	height: 48px;
+	background: #f1f6f9;
+	border-radius: 24px;
+	padding-left: 38px;
+	border: none;
+	outline: none;
+}
+.contact_textarea
+{
+	height: 153px;
+	padding-top: 17px;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #838383 !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #838383 !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #838383 !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #838383 !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #838383 !important;
+}
+.contact_button
+{
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.center{
+    background-color: #f7f1f0;
+    border-radius: 10%;
+    padding:  5%;
+}
+.rtl{direction: center;}
+
+
+
+.bg-style-two + .footer-top:before {
+	background-color: #E8ECF6;
+  }
+  
+  .footer-top {
+	background: #fff;
+	padding: 57.5px 0;
+	position: relative;
+	margin-top: 315px;
+  }
+  .footer-top:before  .social{
+	content: '';
+	width: 100%;
+	height: 314px;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+  }
+  .footer-top .social {
+	padding: 5px 0;
+	line-height: 1em;
+  }
+  .footer-top .social a {
+	font-size: 20px;
+	color: #6278CD;
+	line-height: 1em;
+  }
+  .footer-top .social a + a {
+	margin-left: 45px;
+  }
+  
+  .footer-bottom {
+	background: #FFFFFF;
+	padding: 52px 0;
+	border-top: 2px solid #eff2fb;
+  }
+  .footer-bottom p {
+	margin: 0;
+	color: #7a7f93;
+	font-size: 16px;
+	font-weight: 500;
+  }
+
+
+  footer_nav
+{
+	margin-left: 170px;
+}
+.footer_nav ul li
+{
+	display: inline-block;
+}
+.footer_nav ul li:not(:last-child)
+{
+	margin-right: 47px;
+}
+.footer_nav ul li a
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #828282;
+}
+.footer_nav ul li a:hover
+{
+	color: #32f996;
+}
+
+
+  
+.tip-text{
+	direction: rtl;
+	padding:10px;
+	padding: 0% 10%;
+	font-size: 20px;
+	font-weight: 500;
+	color: #838383;
+	margin-top: 26px;
+}
+.tip-header{
+	direction: rtl;
+	padding:15px;
+	padding-right:25%;
+	font-size:30px;
+	font-weight: 600;
+	color: #282828;
+}
+  
+.tip{
+	padding-bottom:10px;
+	padding-top: 10px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.hw{width: 100%;
+    height: 400px;
+}
+
+.left:hover{ 
+	box-shadow: -5px 5px  rgba(0,0,0,0.25);
+	margin-top:11%;
+	margin-bottom:9%;
+	
+}
+
+.right:hover{
+	box-shadow: 5px 5px rgba(0,0,0,0.25);
+	margin-top:11%;
+	margin-bottom:9%;
+}
